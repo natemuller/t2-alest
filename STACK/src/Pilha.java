@@ -8,7 +8,7 @@ public class Pilha <T> {
 
     public Pilha () {
         elementos = (T[]) new Object[10];
-        topo = -1;  // -1 para indicar que o primeiro item adicionado estará em "0"
+        topo = -1;
     }
 
     public boolean empty () {
