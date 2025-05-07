@@ -1,7 +1,5 @@
 import java.util.Vector;
 
-@SuppressWarnings("unchecked")
-
 public class Pilha <T> {
     private T[] elementos;
     private int topo;
