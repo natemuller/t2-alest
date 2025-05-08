@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class App {
     public static void main(String[] args) {
         Pilha<Integer> pilha = new Pilha<>();
@@ -21,7 +23,6 @@ public class App {
         for (int i = 0; i < elementos.length; i++) {
             pilha.push(elementos[i]);
         }
-
         // Testa o método empty()
         System.out.println("Pilha vazia? " + pilha.empty());
 
